@@ -5,7 +5,7 @@ quantities = {"velocity": "m/s",
               "time": "s"}
 
 st.title("Physics Unit Finder")
-st.header("Type a physics quantity")
+st.subheader("Type a physics quantity")
 user_input = st.text_input("Enter: ").lower().strip()
 
 if user_input:
