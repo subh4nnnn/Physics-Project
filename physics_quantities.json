@@ -1,0 +1,946 @@
+[
+    {
+        "Name":"absorbed dose rate",
+        "Symbol":"D",
+        "Description":"Absorbed dose received per unit of time",
+        "SI unit":"Gy\/s",
+        "Quantity dimension":"L2 T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"action",
+        "Symbol":"S",
+        "Description":"Momentum of particle multiplied by distance travelled",
+        "SI unit":"J\/Hz",
+        "Quantity dimension":"M L2 T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"amount of substance",
+        "Symbol":"n",
+        "Description":"The quantity proportional to the number of particles in a sample, with the Avogadro constant as the proportionality constant",
+        "SI unit":"mole (mol)",
+        "Quantity dimension":"N",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"angle",
+        "Symbol":"\u03b8",
+        "Description":"Angular distance",
+        "SI unit":"radian (rad)",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"angular acceleration",
+        "Symbol":"\u03c9a",
+        "Description":"Change in angular velocity per unit time",
+        "SI unit":"rad\/s2",
+        "Quantity dimension":"T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"area",
+        "Symbol":"A, S",
+        "Description":"Extent of a two-dimensional geometric shape",
+        "SI unit":"m2",
+        "Quantity dimension":"L2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"area density",
+        "Symbol":"\u03c1A",
+        "Description":"Mass per unit area",
+        "SI unit":"kg\u22c5m\u22122",
+        "Quantity dimension":"M L\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"capacitance",
+        "Symbol":"C",
+        "Description":"Stored charge per unit electric potential",
+        "SI unit":"farad (F = C\/V)",
+        "Quantity dimension":"M\u22121 L\u22122 T4 I2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"catalytic activity concentration",
+        "Symbol":null,
+        "Description":"Change in reaction rate due to presence of a catalyst per unit volume of the system",
+        "SI unit":"kat\u22c5m\u22123",
+        "Quantity dimension":"L\u22123 T\u22121 N",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"chemical potential",
+        "Symbol":"\u03bc",
+        "Description":"Energy per unit change in amount of substance",
+        "SI unit":"J\/mol",
+        "Quantity dimension":"M L2 T\u22122 N\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"density (or volume density)",
+        "Symbol":"\u03c1",
+        "Description":"Mass per unit volume",
+        "SI unit":"kg\/m3",
+        "Quantity dimension":"M L\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"dose equivalent",
+        "Symbol":"H",
+        "Description":"Received radiation adjusted for the effect on biological tissue",
+        "SI unit":"sievert (Sv = J\/kg)",
+        "Quantity dimension":"L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electric charge",
+        "Symbol":"Q",
+        "Description":"The force per unit electric field strength",
+        "SI unit":"coulomb (C = A\u22c5s)",
+        "Quantity dimension":"T I",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electric charge density",
+        "Symbol":"\u03c1Q",
+        "Description":"Electric charge per unit volume",
+        "SI unit":"C\/m3",
+        "Quantity dimension":"L\u22123 T I",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electrical conductance",
+        "Symbol":"G",
+        "Description":"Measure for how easily current flows through a material",
+        "SI unit":"siemens (S = \u03a9\u22121)",
+        "Quantity dimension":"M\u22121 L\u22122 T3 I2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electrical conductivity",
+        "Symbol":"\u03c3",
+        "Description":"Measure of a material's ability to conduct an electric current",
+        "SI unit":"S\/m",
+        "Quantity dimension":"M\u22121 L\u22123 T3 I2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electric current",
+        "Symbol":"I",
+        "Description":"Rate of flow of electrical charge per unit time",
+        "SI unit":"ampere (A)",
+        "Quantity dimension":"I",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electric potential",
+        "Symbol":"\u03c6",
+        "Description":"Energy required to move a unit charge through an electric field from a reference point",
+        "SI unit":"volt (V = J\/C)",
+        "Quantity dimension":"M L2 T\u22123 I\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electrical resistance",
+        "Symbol":"R",
+        "Description":"Electric potential per unit electric current",
+        "SI unit":"ohm (\u03a9 = V\/A)",
+        "Quantity dimension":"M L2 T\u22123 I\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"electrical resistivity",
+        "Symbol":"\u03c1e",
+        "Description":"Bulk property equivalent of electrical resistance",
+        "SI unit":"ohm-metre (\u03a9\u22c5m)",
+        "Quantity dimension":"M L3 T\u22123 I\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"energy",
+        "Symbol":"E",
+        "Description":"Energy",
+        "SI unit":"joule (J)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"energy density",
+        "Symbol":"U",
+        "Description":"Energy per volume",
+        "SI unit":"J\u22c5m\u22123",
+        "Quantity dimension":"M L\u22121 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"entropy",
+        "Symbol":"S",
+        "Description":"Logarithmic measure of the number of available states of a system",
+        "SI unit":"J\/K",
+        "Quantity dimension":"M L2 T\u22122 \u0398\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"frequency",
+        "Symbol":"f",
+        "Description":"Number of (periodic) occurrences per unit time",
+        "SI unit":"hertz (Hz = s\u22121)",
+        "Quantity dimension":"T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"half-life",
+        "Symbol":"t1\/2",
+        "Description":"Time for a quantity to decay to half its initial value",
+        "SI unit":"s",
+        "Quantity dimension":"T",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"heat",
+        "Symbol":"Q",
+        "Description":"Heat",
+        "SI unit":"joule (J)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"heat capacity",
+        "Symbol":"Cp",
+        "Description":"Energy per unit temperature change",
+        "SI unit":"J\/K",
+        "Quantity dimension":"M L2 T\u22122 \u0398\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"heat flux density",
+        "Symbol":"\u03d5Q",
+        "Description":"Heat flow per unit time per unit surface area",
+        "SI unit":"W\/m2",
+        "Quantity dimension":"M T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"illuminance",
+        "Symbol":"Ev",
+        "Description":"Wavelength-weighted luminous flux per unit surface area",
+        "SI unit":"lux (lx = cd\u22c5sr\/m2)",
+        "Quantity dimension":"L\u22122 J",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"impedance",
+        "Symbol":"Z",
+        "Description":"Resistance to an alternating current of a given frequency, including effect on phase",
+        "SI unit":"ohm (\u03a9)",
+        "Quantity dimension":"M L2 T\u22123 I\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"inductance",
+        "Symbol":"L",
+        "Description":"Magnetic flux generated per unit current through a circuit",
+        "SI unit":"henry (H)",
+        "Quantity dimension":"M L2 T\u22122 I\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"irradiance",
+        "Symbol":"E",
+        "Description":"Electromagnetic radiation power per unit surface area",
+        "SI unit":"W\/m2",
+        "Quantity dimension":"M T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"intensity",
+        "Symbol":"I",
+        "Description":"Power per unit cross sectional area",
+        "SI unit":"W\/m2",
+        "Quantity dimension":"M T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"kinetic energy",
+        "Symbol":"KE",
+        "Description":"The work or force in the direction of motion times displacement",
+        "SI unit":"joule (J)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"length",
+        "Symbol":"l, L",
+        "Description":"linear extent between two points, which may be along some path",
+        "SI unit":"metre (m)",
+        "Quantity dimension":"L",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"linear density",
+        "Symbol":"\u03c1l",
+        "Description":"Mass per unit length",
+        "SI unit":"kg\u22c5m\u22121",
+        "Quantity dimension":"M L\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"luminous intensity",
+        "Symbol":"Iv",
+        "Description":"Wavelength-weighted power of emitted light per unit solid angle",
+        "SI unit":"candela (cd)",
+        "Quantity dimension":"J",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"luminous flux (or luminous power)",
+        "Symbol":"F",
+        "Description":"Perceived power of a light source",
+        "SI unit":"lumen (lm = cd\u22c5sr)",
+        "Quantity dimension":"J",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"Mach number (or mach)",
+        "Symbol":"M",
+        "Description":"Ratio of flow velocity to the local speed of sound",
+        "SI unit":"1",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"magnetic flux",
+        "Symbol":"\u03a6",
+        "Description":"Measure of magnetism, taking account of the strength and the extent of a magnetic field",
+        "SI unit":"weber (Wb)",
+        "Quantity dimension":"M L2 T\u22122 I\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"mass",
+        "Symbol":"m",
+        "Description":"A measure of resistance to acceleration",
+        "SI unit":"kilogram (kg)",
+        "Quantity dimension":"M",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"mass fraction",
+        "Symbol":"x",
+        "Description":"Mass of a substance as a fraction of the total mass",
+        "SI unit":"1",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"mean lifetime",
+        "Symbol":"\u03c4",
+        "Description":"Average time for a particle of a substance to decay",
+        "SI unit":"s",
+        "Quantity dimension":"T",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"molar concentration",
+        "Symbol":"C",
+        "Description":"Amount of substance per unit volume",
+        "SI unit":"mol\u22c5m\u22123",
+        "Quantity dimension":"L\u22123 N",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"molar energy",
+        "Symbol":null,
+        "Description":"Amount of energy present in a system per unit amount of substance",
+        "SI unit":"J\/mol",
+        "Quantity dimension":"M L2 T\u22122 N\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"molar entropy",
+        "Symbol":"S\u00b0",
+        "Description":"Entropy per unit amount of substance",
+        "SI unit":"J\/(K\u22c5mol)",
+        "Quantity dimension":"M L2 T\u22122 \u0398\u22121 N\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"molar heat capacity",
+        "Symbol":"c",
+        "Description":"Heat capacity of a material per unit amount of substance",
+        "SI unit":"J\/(K\u22c5mol)",
+        "Quantity dimension":"M L2 T\u22122 \u0398\u22121 N\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"moment of inertia",
+        "Symbol":"I",
+        "Description":"Inertia of an object with respect to angular acceleration",
+        "SI unit":"kg\u22c5m2",
+        "Quantity dimension":"M L2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"optical power",
+        "Symbol":"P",
+        "Description":"Measure of the effective curvature of a lens or curved mirror; inverse of focal length",
+        "SI unit":"dioptre (dpt = m\u22121)",
+        "Quantity dimension":"L\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"permeability",
+        "Symbol":"\u03bcs",
+        "Description":"Measure for how the magnetization of material is affected by the application of an external magnetic field",
+        "SI unit":"H\/m",
+        "Quantity dimension":"M L T\u22122 I\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"permittivity",
+        "Symbol":"\u03b5s",
+        "Description":"Measure for how the polarization of a material is affected by the application of an external electric field",
+        "SI unit":"F\/m",
+        "Quantity dimension":"M\u22121 L\u22123 T4 I2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"plane angle",
+        "Symbol":"\u03b8",
+        "Description":"Ratio of circular arc length to radius",
+        "SI unit":"radian (rad)",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"potential energy",
+        "Symbol":"PE",
+        "Description":"The energy of an object or system due to the body's position relative to other objects, or the configuration of its particles",
+        "SI unit":"joule (J)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"power",
+        "Symbol":"P",
+        "Description":"Rate of transfer of energy per unit time",
+        "SI unit":"watt (W)",
+        "Quantity dimension":"M L2 T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"pressure",
+        "Symbol":"p",
+        "Description":"Force per unit area",
+        "SI unit":"pascal (Pa = N\/m2)",
+        "Quantity dimension":"M L\u22121 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"(radioactivity) activity",
+        "Symbol":"A",
+        "Description":"Number of particles decaying per unit time",
+        "SI unit":"becquerel (Bq = Hz)",
+        "Quantity dimension":"T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"(radiation) dose",
+        "Symbol":"D",
+        "Description":"Ionizing radiation energy absorbed per unit mass",
+        "SI unit":"gray (Gy = J\/kg)",
+        "Quantity dimension":"L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"radiance",
+        "Symbol":"L",
+        "Description":"Power of emitted electromagnetic radiation per unit solid angle per emitting source area",
+        "SI unit":"W\/(m2\u22c5sr)",
+        "Quantity dimension":"M T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"radiant intensity",
+        "Symbol":"I",
+        "Description":"Power of emitted electromagnetic radiation per unit solid angle",
+        "SI unit":"W\/sr",
+        "Quantity dimension":"M L2 T\u22123",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"reaction rate",
+        "Symbol":"r",
+        "Description":"Rate of a chemical reaction for unit time",
+        "SI unit":"mol\/(m3\u22c5s)",
+        "Quantity dimension":"L\u22123 T\u22121 N",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"refractive index",
+        "Symbol":"n",
+        "Description":"Factor by which the phase velocity of light is reduced in a medium",
+        "SI unit":"1",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"reluctance",
+        "Symbol":null,
+        "Description":"Resistance to the flow of magnetic flux",
+        "SI unit":"H\u22121",
+        "Quantity dimension":"M\u22121 L\u22122 T2 I2",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"solid angle",
+        "Symbol":"\u03a9",
+        "Description":"Ratio of area on a sphere to its radius squared",
+        "SI unit":"steradian (sr)",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"specific energy",
+        "Symbol":"e",
+        "Description":"Energy density per unit mass",
+        "SI unit":"J\u22c5kg\u22121",
+        "Quantity dimension":"L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"specific heat capacity",
+        "Symbol":"c",
+        "Description":"Heat capacity per unit mass",
+        "SI unit":"J\/(K\u22c5kg)",
+        "Quantity dimension":"L2 T\u22122 \u0398\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"specific volume",
+        "Symbol":"v",
+        "Description":"Volume per unit mass (reciprocal of density)",
+        "SI unit":"m3\u22c5kg\u22121",
+        "Quantity dimension":"M\u22121 L3",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"speed",
+        "Symbol":"v",
+        "Description":"magnitude of velocity",
+        "SI unit":"m\/s",
+        "Quantity dimension":"L T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"spin",
+        "Symbol":"S",
+        "Description":"Quantum-mechanically defined angular momentum of a particle",
+        "SI unit":"kg\u22c5m2\u22c5s\u22121",
+        "Quantity dimension":"M L2 T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"strain",
+        "Symbol":"\u03b5",
+        "Description":"Extension per unit length",
+        "SI unit":"1",
+        "Quantity dimension":"1",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"stress",
+        "Symbol":"\u03c3",
+        "Description":"Force per unit oriented surface area",
+        "SI unit":"Pa",
+        "Quantity dimension":"M L\u22121 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"surface tension",
+        "Symbol":"\u03b3",
+        "Description":"Energy change per unit change in surface area",
+        "SI unit":"N\/m or J\/m2",
+        "Quantity dimension":"M T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"temperature",
+        "Symbol":"T",
+        "Description":"Average kinetic energy per degree of freedom of a system",
+        "SI unit":"kelvin (K)",
+        "Quantity dimension":"\u0398",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"time",
+        "Symbol":"t",
+        "Description":"The duration of an event",
+        "SI unit":"second (s)",
+        "Quantity dimension":"T",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"thermal conductance",
+        "Symbol":"\u03ba, \u03bb",
+        "Description":"Measure for the ease with which an object conducts heat",
+        "SI unit":"W\/K",
+        "Quantity dimension":"M L2 T\u22123 \u0398\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"thermal conductivity",
+        "Symbol":"\u03bb",
+        "Description":"Measure for the ease with which a material conducts heat",
+        "SI unit":"W\/(m\u22c5K)",
+        "Quantity dimension":"M L T\u22123 \u0398\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"Thermal resistance",
+        "Symbol":"R",
+        "Description":"Measure for the ease with which an object resists conduction of heat",
+        "SI unit":"K\/W",
+        "Quantity dimension":"M\u22121 L\u22122 T3 \u0398",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"Thermal resistivity",
+        "Symbol":"R\u03bb",
+        "Description":"Measure for the ease with which a material resists conduction of heat",
+        "SI unit":"K\u22c5m\/W",
+        "Quantity dimension":"M\u22121 L\u22121 T3 \u0398",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"viscosity",
+        "Symbol":"\u03b7",
+        "Description":"The measure of the internal friction in a fluid",
+        "SI unit":"Pa\u22c5s",
+        "Quantity dimension":"M L\u22121 T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"volume",
+        "Symbol":"V",
+        "Description":"Three dimensional extent of an object",
+        "SI unit":"m3",
+        "Quantity dimension":"L3",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"volumetric flow rate",
+        "Symbol":"Q",
+        "Description":"Rate of change of volume with respect to time",
+        "SI unit":"m3\u22c5s\u22121",
+        "Quantity dimension":"L3 T\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"wavelength",
+        "Symbol":"\u03bb",
+        "Description":"length of the repetition interval of a wave as measured in the direction of propagation",
+        "SI unit":"m",
+        "Quantity dimension":"L",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"wavenumber",
+        "Symbol":"k",
+        "Description":"Repetency or spatial frequency: the inverse of the wavelength",
+        "SI unit":"m\u22121",
+        "Quantity dimension":"L\u22121",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"work",
+        "Symbol":"W",
+        "Description":"Transferred energy",
+        "SI unit":"joule (J)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"Young's modulus",
+        "Symbol":"E",
+        "Description":"Ratio of stress to strain",
+        "SI unit":"pascal (Pa)",
+        "Quantity dimension":"M L\u22121 T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"spring constant",
+        "Symbol":"k",
+        "Description":"k is the torsional constant (measured in N\u00b7m\/rad), which characterizes the stiffness of the torsional spring or the resistance to angular displacement.",
+        "SI unit":"N\/m",
+        "Quantity dimension":"M T\u22122",
+        "Type":"Scalar"
+    },
+    {
+        "Name":"absement",
+        "Symbol":"A",
+        "Description":"Measure of sustained displacement: the first integral with respect to time of displacement",
+        "SI unit":"m\u22c5s",
+        "Quantity dimension":"L T",
+        "Type":"Vector"
+    },
+    {
+        "Name":"acceleration",
+        "Symbol":"a\u2192",
+        "Description":"Rate of change of velocity per unit time: the second time derivative of position",
+        "SI unit":"m\/s2",
+        "Quantity dimension":"L T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"angular acceleration",
+        "Symbol":"\u03c9a",
+        "Description":"Change in angular velocity per unit time",
+        "SI unit":"rad\/s2",
+        "Quantity dimension":"T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"angular momentum",
+        "Symbol":"L",
+        "Description":"Measure of the extent and direction an object rotates about a reference point",
+        "SI unit":"kg\u22c5m2\/s",
+        "Quantity dimension":"M L2 T\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"angular velocity",
+        "Symbol":"\u03c9",
+        "Description":"The angle incremented in a plane by a segment connecting an object and a reference point per unit time",
+        "SI unit":"rad\/s",
+        "Quantity dimension":"T\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"area",
+        "Symbol":"A",
+        "Description":"Extent of a surface",
+        "SI unit":"m2",
+        "Quantity dimension":"L2",
+        "Type":"Vector"
+    },
+    {
+        "Name":"centrifugal force",
+        "Symbol":"Fc",
+        "Description":"Inertial force that appears to act on all objects when viewed in a rotating frame of reference",
+        "SI unit":"N\u22c5rad = kg\u22c5m\u22c5rad\u22c5s\u22122",
+        "Quantity dimension":"M L T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"crackle",
+        "Symbol":"c\u2192",
+        "Description":"Change of snap per unit time: the fifth time derivative of position",
+        "SI unit":"m\/s5",
+        "Quantity dimension":"L T\u22125",
+        "Type":"Vector"
+    },
+    {
+        "Name":"current density",
+        "Symbol":"J\u2192",
+        "Description":"Electric current per unit cross-section area",
+        "SI unit":"A\/m2",
+        "Quantity dimension":"L\u22122 I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"displacement",
+        "Symbol":"\u2206s\u2192",
+        "Description":"The shortest distance from the initial to the final position of a point P undergoing motion",
+        "SI unit":"m",
+        "Quantity dimension":"L",
+        "Type":"Vector"
+    },
+    {
+        "Name":"electric dipole moment",
+        "Symbol":"p",
+        "Description":"Measure of the separation of equal and opposite electric charges",
+        "SI unit":"C\u22c5m",
+        "Quantity dimension":"L T I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"electric displacement field",
+        "Symbol":"D\u2192",
+        "Description":"Strength of the electric displacement",
+        "SI unit":"C\/m2",
+        "Quantity dimension":"L\u22122 T I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"electric field strength",
+        "Symbol":"E\u2192",
+        "Description":"Strength of the electric field",
+        "SI unit":"V\/m, N\/C",
+        "Quantity dimension":"M L T\u22123 I\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"force",
+        "Symbol":"F\u2192",
+        "Description":"Transfer of momentum per unit time",
+        "SI unit":"newton (N = kg\u22c5m\u22c5s\u22122)",
+        "Quantity dimension":"M L T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"gravitational field strength",
+        "Symbol":"g\u2192",
+        "Description":"Force per unit mass in a gravitational field",
+        "SI unit":"m\/s2",
+        "Quantity dimension":"L T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"impulse",
+        "Symbol":"J",
+        "Description":"Transferred momentum",
+        "SI unit":"newton-second (N\u22c5s = kg\u22c5m\/s)",
+        "Quantity dimension":"M L T\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"jerk",
+        "Symbol":"j\u2192",
+        "Description":"Change of acceleration per unit time: the third time derivative of position",
+        "SI unit":"m\/s3",
+        "Quantity dimension":"L T\u22123",
+        "Type":"Vector"
+    },
+    {
+        "Name":"magnetic field strength",
+        "Symbol":"H",
+        "Description":"Strength of a magnetic field",
+        "SI unit":"A\/m",
+        "Quantity dimension":"L\u22121 I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"magnetic flux density",
+        "Symbol":"B",
+        "Description":"Measure for the strength of the magnetic field",
+        "SI unit":"tesla (T = Wb\/m2)",
+        "Quantity dimension":"M T\u22122 I\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"magnetic moment (or magnetic dipole moment)",
+        "Symbol":"m",
+        "Description":"The component of magnetic strength and orientation that can be represented by an equivalent magnetic dipole",
+        "SI unit":"N\u22c5m\/T",
+        "Quantity dimension":"L2 I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"magnetization",
+        "Symbol":"M",
+        "Description":"Amount of magnetic moment per unit volume",
+        "SI unit":"A\/m",
+        "Quantity dimension":"L\u22121 I",
+        "Type":"Vector"
+    },
+    {
+        "Name":"momentum",
+        "Symbol":"p\u2192",
+        "Description":"Product of an object's mass and velocity",
+        "SI unit":"kg\u22c5m\/s",
+        "Quantity dimension":"M L T\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"pop",
+        "Symbol":"p\u2192",
+        "Description":"Rate of change of crackle per unit time: the sixth time derivative of position",
+        "SI unit":"m\/s6",
+        "Quantity dimension":"L T\u22126",
+        "Type":"Vector"
+    },
+    {
+        "Name":"pressure gradient",
+        "Symbol":"\u2207p",
+        "Description":"Pressure per unit distance",
+        "SI unit":"pascal\/m",
+        "Quantity dimension":"M1 L\u22122 T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"snap (or jounce)",
+        "Symbol":"s\u2192",
+        "Description":"Change of jerk per unit time: the fourth time derivative of position",
+        "SI unit":"m\/s4",
+        "Quantity dimension":"L T\u22124",
+        "Type":"Vector"
+    },
+    {
+        "Name":"temperature gradient",
+        "Symbol":"\u2207T",
+        "Description":"Steepest rate of temperature change at a particular location",
+        "SI unit":"K\/m",
+        "Quantity dimension":"L\u22121 \u0398",
+        "Type":"Vector"
+    },
+    {
+        "Name":"torque",
+        "Symbol":"\u03c4",
+        "Description":"Product of a force and the perpendicular distance of the force from the point about which it is exerted",
+        "SI unit":"newton-metre (N\u22c5m)",
+        "Quantity dimension":"M L2 T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"velocity",
+        "Symbol":"v\u2192",
+        "Description":"Moved distance per unit time: the first time derivative of position",
+        "SI unit":"m\/s",
+        "Quantity dimension":"L T\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"wavevector",
+        "Symbol":"k\u2192",
+        "Description":"Repetency or spatial frequency vector: the number of cycles per unit distance",
+        "SI unit":"m\u22121",
+        "Quantity dimension":"L\u22121",
+        "Type":"Vector"
+    },
+    {
+        "Name":"weight",
+        "Symbol":"w",
+        "Description":"Gravitational force on an object",
+        "SI unit":"newton (N = kg\u22c5m\/s2)",
+        "Quantity dimension":"M L T\u22122",
+        "Type":"Vector"
+    },
+    {
+        "Name":"moment of inertia",
+        "Symbol":"I",
+        "Description":"Inertia of an object with respect to angular acceleration",
+        "SI unit":"kg\u22c5m2",
+        "Quantity dimension":"L2 M",
+        "Type":"Tensor"
+    },
+    {
+        "Name":"stress",
+        "Symbol":"\u03c3",
+        "Description":"Force per unit oriented surface area",
+        "SI unit":"Pa",
+        "Quantity dimension":"L\u22121 M T\u22122",
+        "Type":"Tensor"
+    },
+    {
+        "Name":"electric susceptibility (for non-isotropic linear dielectrics)",
+        "Symbol":"\u03c7",
+        "Description":"Polarization density per unit electric field",
+        "SI unit":"1",
+        "Quantity dimension":"1",
+        "Type":"Tensor"
+    }
+]
