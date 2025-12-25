@@ -20,4 +20,8 @@ if query:
         st.write("**Quantity dimension:**", first_row["Quantity dimension"])
         st.write("**Type:**", first_row["Type"])
     else:
-        st.warning("Quantity not found")
+        st.warning("Quantity not found on Wikipedia")
+
+st.markdown("---")
+st.caption("Reference / Notes")
+st.caption("https://en.wikipedia.org/wiki/List_of_physical_quantities")
