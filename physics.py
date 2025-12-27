@@ -70,5 +70,3 @@ if submitted:
 st.markdown("---")
 st.caption("Reference / Notes")
 st.caption("https://en.wikipedia.org/wiki/List_of_physical_quantities")
-
-st.write(st.secrets["gcp_service_account"]["client_email"])
