@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime
-import os
+import gspread
+from google.oauth2.service_account import Credentials
 
 #helper function
 def add_space(lines=1):
@@ -32,31 +33,39 @@ if query:
 add_space(1)
 
 #for quantity suggestions:
+
+def get_worksheet():
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive"
+    ]
+    creds = Credentials.from_service_account_info(
+        st.secrets["gcp_service_account"],
+        scopes=scopes
+    )
+    client = gspread.authorize(creds)
+    sheet = client.open("physics_quantity_suggestions")
+    return sheet.sheet1
+
 st.markdown("---")
 st.subheader("Suggest a missing quantity")
 with st.form("missing_quantity_form"):
-    missing_name = st.text_input("Missing physical quantity name *")
+    user_name = st.text_input("Your name: *")
+    quantity_name = st.text_input("Quantity name: *")
     submitted = st.form_submit_button("Submit suggestion")
 
 if submitted:
-    if missing_name.strip() == "":
-        st.error("Please enter a quantity name")
+    if quantity_name.strip() == "" or user_name.strip() == "":
+        st.error("Please enter both your name and the quantity name")
     else:
-        data = {
-            "quantity": [missing_name.strip()],
-            "time": [datetime.now().isoformat()]
-        }
-        df_new = pd.DataFrame(data)
-        file_path = "missing_quantities.csv"
-
-        if os.path.exists(file_path):
-            df_existing = pd.read_csv(file_path)
-            df_all = pd.concat([df_existing, df_new], ignore_index=True)
-        else:
-            df_all = df_new
-
-        df_all.to_csv(file_path, index=False)
+        ws = get_worksheet()
+        ws.append_row([
+            user_name.strip(),
+            quantity_name.strip(),
+            datetime.now().isoformat()
+        ])
         st.success("Your suggestion has been submitted")
+
 
 st.markdown("---")
 st.caption("Reference / Notes")
