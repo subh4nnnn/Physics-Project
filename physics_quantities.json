@@ -942,5 +942,54 @@
         "SI unit":"1",
         "Quantity dimension":"1",
         "Type":"Tensor"
+    },
+    {
+    "Name":"Planck's constant",
+    "Symbol":"h",
+    "Description":"Proportionality constant between the energy of a photon and the frequency of its associated electromagnetic wave",
+    "SI unit":"J·s",
+    "Quantity dimension":"M L2 T^-1",
+    "Type":"Scalar"
+    },
+    {
+    "Name":"Rydberg constant",
+    "Symbol":"R∞",
+    "Description":"Constant related to the limiting value of the highest wavenumber of a photon emitted from the hydrogen atom",
+    "SI unit":"m^-1",
+    "Quantity dimension":"L^-1",
+    "Type":"Scalar"
+    },
+    {
+    "Name":"Avogadro number",
+    "Symbol":"NA",
+    "Description":"Number of constituent particles (usually atoms or molecules) in one mole of a substance",
+    "SI unit":"mol^-1",
+    "Quantity dimension":"1",
+    "Type":"Scalar"
+    },
+    {
+    "Name":"Gravitational constant",
+    "Symbol":"G",
+    "Description":"Proportionality constant in Newton's law of universal gravitation",
+    "SI unit":"m^3·kg^-1·s^-2",
+    "Quantity dimension":"M^-1 L^3 T^-2",
+    "Type":"Scalar"
+    },
+    {
+    "Name":"Speed of light",
+    "Symbol":"c",
+    "Description":"Speed at which electromagnetic waves propagate in vacuum",
+    "SI unit":"m/s",
+    "Quantity dimension":"L T^-1",
+    "Type":"Scalar"
+    },
+    {
+    "Name":"Boltzmann constant",
+    "Symbol":"k",
+    "Description":"Proportionality constant relating the average kinetic energy of particles in a gas to the temperature of the gas",
+    "SI unit":"J/K",
+    "Quantity dimension":"M L2 T^-2 Θ^-1",
+    "Type":"Scalar"
     }
+
 ]
